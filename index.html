@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Shooting</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" type="text/css" href="styles.css" >
+    <!-- Your inline CSS styles -->
+    <style>
+        /* Basic CSS for navigation bar */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #1469df;
+            overflow: hidden;
+        }
+
+        nav b {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            font-size: 25px;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        /* CSS for GIF image */
+        #gif {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+        }
+        .links{
+            padding-right: 100px;
+        }
+        p {
+            margin: 0; 
+        }
+
+        footer {
+            background-color: #1469df;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: absolute;
+            bottom: 100;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <b>Bird Shooting</b>
+    <div class="links">
+        <a href="#Roles">Our Roles</a>
+        <a href="#Assets">Resources and Assets</a>
+        <a href="#Objectives">Objectives</a>
+        <a href="#Challenges">Challenges</a>
+        <a href="#Inspiration">Source of Inspiration</a>
+        <a href="#Project">Project Overview</a>
+    </div>
+</nav>
+
+<!-- Content Section -->
+<div style="padding:70px;">
+    <h6>Made by : Garv Bundel (102117149) , Sushanth Raj (102117149)</h6>
+    <h1>Documentation</h1>
+    <a href="project.html" target="_blank" style="color: white;">Click here for the live demo</a>
+
+</div>
+
+<!-- GIF Image Section -->
+<div id="gif" style="padding:70px">
+    <h2>A Glimpse of our project</h2>
+    <img src="project_image.png" alt="GIF Image" style="width: 50%; height: auto;">
+</div>
+<hr>
+<div id="Project" style="padding:70px">
+    <!-- Project overview -->
+    <h2>Project Overview</h2>
+    <p>
+        Welcome to the Bird Shooting Game! In this dynamic online gaming experience, you'll immerse yourself in a lively virtual landscape where birds fly across the screen. 
+        Your role as a sharpshooter is to skillfully aim and shoot these birds as they traverse the sky. Equip your character with a gun, and react quickly to the birds’ movements. 
+        This engaging game not only tests your precision and timing but also offers a visually appealing representation of bird behaviors, making each session both challenging and enjoyable.
+    </p>
+    <ul>
+    <h3><li>How to Feed?</li></h3>
+        <li><u>Watch the Birds</u> : Observe as the birds fly in the air.<br></li>
+        <li><u>Move the cursor to aim</u> : Simply move on the bird to aim at the bird.<br></li>
+        <li><u>Click to shoot</u> : Simply click on the bird to shoot the bird.<br></li>
+        
+    </ul>
+</div>
+<hr>
+
+<div id="Inspiration" style="padding:70px">
+    <h2>Source of Inspiration</h2>
+   <ul>
+        <li> High-quality photographs from bird watching books and websites can inspire the design of the game's bird characters, offering ideas for realistic coloring, size differentiation, and species-specific movement traits. </li>
+        <li>Examining other nature-themed video games, especially those involving shooting or capturing animals, could provide ideas on user interface design, game mechanics, and player engagement strategies.</li>
+   </ul>
+</div>
+<hr>
+
+<div id="Assets" style="padding:70px">
+    <h2>Resources and Assets</h2>
+    <ul>
+    <h3><li>Design</li></h3>
+        <li>Canva</li>
+        <li>Figma</li>
+        <li>Photoshop/Inkscape</li>
+    </ul>
+    <ul>
+    <h3><li>Websites/Videos for reference</li></h3>
+        <li>Sprite Animation in JavaScript by Franks Laboratory</li>
+        <li>Chatgpt for adding gills to the fish</li>
+        <li>Bootstrap</li>
+    </ul>
+</div>
+<hr>
+
+<div class="objective" style="padding:70px">
+    <h2>Objectives</h2>
+
+    <h3>1. Develop an engaging bird shooting game with interactive gameplay mechanics:
+    </h3>
+    <p>
+        <b>Situation:</b> Create an exciting game environment where birds fly across the screen, and the player tries to shoot them down using a man with a gun.<br>
+        <b>Task:</b> Implement bird generation such that they appear randomly from one side of the screen and move horizontally to the opposite side. 
+        Design a shooting mechanism that allows the man to shoot at the birds in response to user clicks.<br>
+        <b>Result:</b> Players will be enthralled by the challenge of accurately aiming and shooting at moving targets, 
+        providing a satisfying gameplay experience.
+    </p>
+
+    <h3>2. Incorporate advanced gameplay features and personalization options to increase game depth:
+    </h3>
+    <p>
+        <b>Situation:</b> Augment the basic gameplay loop to enhance player engagement and replayability.<br>
+        <b>Task:</b> Introduce additional features such as different bird types with varying speeds and sizes.<br>
+        <b>Result:</b> These enhancements will enrich the gameplay, encouraging players to return and engage with the game repeatedly while striving to improve their skills, 
+        thereby increasing the overall game’s appeal and lifespan.
+    </p>
+</div>
+<hr>
+
+<div id="Challenges" style="padding:70px">
+    <h2>Challenges</h2>
+    <ul>
+        <p><u>Challenge 1</u> :Developing a responsive mechanism for shooting via mouse events posed difficulties, especially in ensuring the accuracy and responsiveness of the shooting mechanics according to user inputs.</p>
+        <p><u>Challenge 2</u> :One of the more demanding technical challenges was to ensure that animations, particularly those of the birds, were rendered smoothly and without lag on the HTML5 canvas.</p>
+        <p><u>Challenge 3</u> :A significant artistic challenge was making the birds in the game look realistic in their movements and reactions, especially when interacting with the environment and responding to being shot.</p>
+    </ul>
+
+    <h2>Overcoming Challenges</h2>
+    <ul>
+        <li>Conducted experiments with different coding approaches for mouse event handling to refine the shooting functionality. This involved testing multiple event models to achieve the desired responsiveness and precision.</li>
+        <li> Employed advanced canvas rendering techniques, such as double buffering and leveraging `requestAnimationFrame` for optimal performance. Simplified complex animations and utilized efficient algorithms to minimize computational overhead.</li>
+        <li> To render birds realistically, extensive references from bird photography and nature documentaries were used. Techniques such as sprite animation with multiple frames for wing movements and behavioral scripts that mimic real avian reactions to threats were implemented.</li>
+    </ul>
+</div>
+<hr>
+
+<div id="Roles" style="padding:70px">
+    <h2>Our Roles</h2>
+    <h3>Garv Bundel</h3>
+    <ul>
+        <li>Story Board design</li>
+        <li>Animating objects (Bird,Man)</li>
+        <li>Adding mouse click function</li>
+        <li>Styling the documentation website</li>
+        <li>Content addition in documentation website</li>
+    </ul>
+    <h3>Sushanth Raj</h3>
+    <ul>
+        <li>Creating documentation website</li>
+        <li>Draw objects (Bird,Man)</li>
+        <li>Resolving issue occured in mouse click functionality</li>
+        <li>Adjusting the project according to the given template</li>
+        <li>UI fixes in documentation Website</li>
+    </ul>
+</div>
+<div id="footer">
+<footer>
+    Thank You!
+</footer>
+</div>
+</body>
+</html>
