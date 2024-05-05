@@ -4,7 +4,7 @@
 
 ### Step 1: Storyboard ###
 
-(https://github.com/Mavericklovish/Fish-Food.github.io/blob/main/102117148-102117157-Fish%26Food-ClickForFood-Storyboard.pdf)
+(https://github.com/SUSHANTH009/Bird_Shooting.github.io/blob/main/102117149-102117162-Bird-Shooting-Storyboard.png)
 
 ### Step 2: Animation ###
 
