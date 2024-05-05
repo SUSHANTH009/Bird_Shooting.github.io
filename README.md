@@ -8,15 +8,15 @@
 
 ### Step 2: Animation ###
 
-github URL: (https://github.com/Mavericklovish/Fish-Food.github.io)
+github URL: (https://github.com/SUSHANTH009/Bird_Shooting.github.io)
 
 ### Step 3: Youtube video link ###
 
-Youtube URL: (https://youtu.be/xM4IKmJ4Bqk)
+Youtube URL: (https://www.youtube.com/watch?v=SJxo3nzEPYo)
 
 ### Step 4: Live page link ###
 
-Live page URL: (https://mavericklovish.github.io/Fish-Food.github.io/)
+Live page URL: (https://sushanth009.github.io/Bird_Shooting.github.io/)
 
 ## Submit ##
 
