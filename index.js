@@ -209,7 +209,6 @@ function shootBird() {
   birds.forEach(bird => {
       if (!bird.isDowned && Math.sqrt((clickX - bird.x) ** 2 + (clickY - bird.y) ** 2) < bird.size) {
           bird.isDowned = true;
-          score++;
           hit = true;
       }
   });
