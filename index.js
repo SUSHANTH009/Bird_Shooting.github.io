@@ -176,23 +176,6 @@ function calculateAngle(x, y, targetX, targetY) {
   return Math.atan2(targetY - y, targetX - x);
 }
 
-function shootBird() {
-  birds.forEach(bird => {
-      if (!bird.isDowned && Math.sqrt((clickX - bird.x) ** 2 + (clickY - bird.y) ** 2) < bird.size) {
-          bird.isDowned = true;
-          score++;
-          bullets.push({
-              x: manPosition.x,
-              y: manPosition.y - 30,
-              toX: bird.x,
-              toY: bird.y,
-              reached: false
-          });
-          playSound();
-      }
-  });
-}
-
 function updateBullets() {
   bullets = bullets.filter(bullet => !bullet.reached);
   bullets.forEach(bullet => {
